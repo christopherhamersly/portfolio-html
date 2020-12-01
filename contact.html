@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>
+    Portfolio
+  </title>
+  <header>
+    Header
+    <nav>
+      <ul>
+        <li><a href="index.html" target="blank">About</a></li>
+        <li><a href="portfolio.html" target="blank">Portfolio</a></li>
+        <li><a href="contact.html" target="blank">Contact</a></li>
+        <li><a href="blog.html" target="blank">Blog</a></li>
+      </ul>
+    </nav>
+  </header>
+</head>
+
+<body>
+  <p>
+    <form  onSubmit={sendEmail}>
+      <input  type="hidden" name="contact_number" />
+      <label >Name: </label>
+      <input  type="text" name="from_name" />
+      <br></br>
+      <label >Email Address: </label>
+      <input  type="email" name="from_email" />
+      <br></br>
+      <label >Subject: </label>
+      <input type="text" name="subject" />
+      <br></br>
+      <label >Message: </label>
+      <br></br>
+      <textarea  name="message"/>
+      
+      <input className={classes.sendButtonLarge} type="submit" value="Send" />
+    </form>
+  </p>
+  <footer>
+    Footer
+    </nav>
+    <ul>
+      <li><a href="" target="blank">linkedin link</a></li>
+      <li><a href="" target="blank">gihub link</a></li>
+    </ul>
+    </nav>
+    <p>&copy Chris Hamersly 2020</p>
+  </footer>
+
+</body>
+
+</html>
